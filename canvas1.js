@@ -79,6 +79,7 @@ function setup() {
   
   // crear objetos
   button = createButton('>> Las exhaustas <<');
+  button1 = createButton('<< ingresar >>');
   button.position(50,500);
   button.mousePressed(entrar);
   button.style('font-size', '50px');
@@ -86,6 +87,15 @@ function setup() {
   button.style('border-style', 'none');
   button.style('background', 'transparent');
   button.style('color', '#73c29a');
+
+  button1.position(190,550);
+  button1.mousePressed(entrar);
+  button1.style('font-size', '25px');
+  button1.style('fontFamily', 'Inconsolata');
+  button1.style('border-style', 'none');
+  button1.style('background', 'transparent');
+  button1.style('color', 'grey');
+
 
 
 
