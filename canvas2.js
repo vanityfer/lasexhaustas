@@ -1,3 +1,4 @@
+var clicks = 0
 let colores = ['#323764', '#8c3d65', '#73c29a'];
 let textos = ['La Iris camina por el pastito de la plaza y ve: una mujer descalza porque no tiene nada para ponerse en los pies, percudidos los pies, sucia la mujer: pobre la Iris se saca las alpargatitas, se pone al sol y piensa en la Vitamina D, piensa en la Irma, piensa en la Cristal, y levanta los pies los pone arriba del banco, dice: siempre hay dos maneras de estar descalza.', 
 'Cuando la Doris escuchó el disparo, salió afuera. Salió a mirar qué había pasado. Adentro estaba la Irma y afuera no había sido. La Cristal dice que los portazos, si una los da, tiene que darlos desde adentro. La Iris no dice nada. La abraza. Se acuerdan de la Consuelo y de su perra Chicha. Las cuidaba en las navidades. ¿Por dónde le entra la bala a la Doris? ¿Y a la Cristal? Pobre la Irma.',
@@ -62,7 +63,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   // crear objetos
  
-  button = createButton('>> Volver <<');
+  button = createButton('>> Siguiente >>');
   button.position(1100,550);
   button.mousePressed(entrar);
   button.style('font-size', '30px');
@@ -91,8 +92,9 @@ function setup() {
 
 }
 
+
 function entrar() {
-    window.open('indexhaustas.html');
+    window.open('lasexhaustas1.html');
   }
 
 function draw() {
@@ -172,7 +174,7 @@ class Jitter {
 
  
   function mousePressed(){
-    bug1.clicked(); 
+   // bug1.clicked(); 
    }
    
 
