@@ -88,7 +88,7 @@ function setup() {
   button.style('background', 'transparent');
   button.style('color', '#73c29a');
 
-  button1.position(190,550);
+  button1.position(195,550);
   button1.mousePressed(entrar);
   button1.style('font-size', '25px');
   button1.style('fontFamily', 'Inconsolata');
