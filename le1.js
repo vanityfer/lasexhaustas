@@ -63,7 +63,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight, WEBGL);
   // crear objetos
  
-  button = createButton('>> Siguiente <<');
+  button = createButton('>> Siguiente >>');
   button.position(1100,550);
   button.mousePressed(entrar);
   button.style('font-size', '30px');
