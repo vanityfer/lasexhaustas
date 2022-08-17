@@ -168,10 +168,12 @@ function draw() {
 // clase Jitter
 class Jitter {
   constructor() {
-    this.x = random(-650, 250);
+    this.largo = windowWidth-200;
+    this.x = random(-650, this.largo);
     this.y = random(-200, 50);
     this.diameter = random(75, 150);
     this.speed = 1;
+    
   }
 
   move() {
@@ -206,7 +208,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto0, this.x, this.y, windowWidth - 200);
+        text(texto0, this.x, this.y, this.largo);
    
         textWrap(WORD);
         fill(50, 55, 100);
@@ -220,7 +222,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto1,this.x, this.y, windowWidth - 200);
+        text(texto1,this.x, this.y, this.largo);
         fill('hsb(160, 100%, 50%');
         textWrap(WORD);
        
@@ -234,7 +236,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto2, this.x, this.y, windowWidth - 200);
+        text(texto2, this.x, this.y, this.largo);
         textWrap(WORD);
         fill('#8c3d65');
         
