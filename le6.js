@@ -94,7 +94,7 @@ function setup() {
 
 
 function entrar() {
-    window.open('lasexhaustas7.html');
+   location.assign('lasexhaustas7.html')
   }
 
 function draw() {
