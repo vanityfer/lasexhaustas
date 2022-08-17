@@ -168,7 +168,7 @@ function draw() {
 // clase Jitter
 class Jitter {
   constructor() {
-    this.x = random(-650, -100);
+    this.x = random(-650, windowWidth - 200);
     this.y = random(-200, 50);
     this.diameter = random(75, 150);
     this.speed = 1;
