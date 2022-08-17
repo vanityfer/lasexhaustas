@@ -233,7 +233,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto2, this.x+50, this.y, windowWidth-200);
+        text(texto2, this.x+50, this.y, 500);
         textWrap(WORD);
         fill('#8c3d65');
         
