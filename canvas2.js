@@ -206,7 +206,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto, this.x, this.y + (this.diameter/2 + 15), (1366/2-this.x));
+        text(texto, this.x+50, this.y, windowWidth-200);
         textWrap(WORD);
         fill(color);
         
