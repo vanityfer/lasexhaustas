@@ -94,7 +94,7 @@ function setup() {
 
 
 function entrar() {
-    window.open('index.html');
+ location.assign('index.html')
   }
 
 function draw() {
