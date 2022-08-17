@@ -206,7 +206,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto0, this.x, this.y + (this.diameter/2 + 4), (1366/2-this.x));
+        text(texto0, this.x+50, this.y, windowWidth-200);
         textWrap(WORD);
         fill(50, 55, 100);
         
@@ -219,7 +219,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto1, this.x, this.y + (this.diameter/2 + 15), (1366/2-this.x));
+        text(texto1,this.x+50, this.y, windowWidth-200);
         fill('hsb(160, 100%, 50%');
         textWrap(WORD);
        
@@ -233,7 +233,7 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto2, this.x, this.y + (this.diameter/2 + 4), (1366/2-this.x));
+        text(texto2, this.x+50, this.y, windowWidth-200);
         textWrap(WORD);
         fill('#8c3d65');
         
@@ -246,7 +246,6 @@ class Jitter {
         textFont(myFont);
         textSize(this.diameter/6);
         
-        text(texto3, this.x+50, this.y, windowWidth-200);
         textWrap(WORD);
         fill('hsb(160, 100%, 50%');
         
